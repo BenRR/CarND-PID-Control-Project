@@ -12,8 +12,6 @@ PID::PID() {}
 PID::~PID() {}
 
 void PID::Init(double Kp, double Ki, double Kd) {
-  // per slack possible params 0.1, 3.0, 0.0004
-  // 0.2, 0.004, 3.0
   p_error = 0.0;
   i_error = 0.0;
   d_error = 0.0;
